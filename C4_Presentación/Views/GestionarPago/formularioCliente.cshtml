@@ -1,0 +1,81 @@
+﻿@model C2_Dominio.Entidades.Cliente
+
+
+<fieldset>
+    <div class="box-content">
+        <div class="row">
+            <div class="col-md-4">DNI</div>
+            <div class="col-md-8"><input size="15" type="text" id="dni" value="@Model.dni" placeholder="Ingrese DNI" /></div>
+        </div>
+        <br />
+        <div class="row">
+            <div class="col-md-4">Nombre</div>
+            <div class="col-md-8"><input size="40" type="text" id="nombre" placeholder="Ingrese nombre" /></div>
+        </div>
+        <br />
+        <div class="row">
+            <div class="col-md-4">Correo Electronico</div>
+            <div class="col-md-8"><input size="30" type="text" id="correoElectronico" placeholder="Ingrese correo electronico" /></div>
+        </div>
+        <br />
+        <div class="row">
+            <div class="col-md-4">Dirección</div>
+            <div class="col-md-8"><textarea id="direccion" placeholder="Ingrese dirección" rows="3" cols="41"></textarea></div>
+        </div>
+        <br />
+        <div class="row">
+            <div class="col-md-4">Fecha de Nacimiento</div>
+            <div class="col-md-8"><input type="date" id="fechaNacimiento" /></div>
+        </div>
+        <br />
+        <div class="row">
+            <div class="col-md-4">Es empresa</div>
+            <div class="col-md-8"><input type="checkbox" id="esEmpresa" value="Es empresa" onclick="checkEsEmpresa()" /></div>
+        </div>
+        <br />
+        <div class="row" style="visibility:hidden" id="filaRazonSocial">
+            <div class="col-md-4">Razon Social</div>
+            <div class="col-md-8"><input type="text" size="40" id="razonSocial" placeholder="Ingrese razon social" /></div>
+        </div>
+        <br />
+        <div class="row" style="visibility:hidden" id="filaRUC">
+            <div class="col-md-4">RUC</div>
+            <div class="col-md-8"><input type="text" size="15" id="ruc" placeholder="Ingrese RUC" /></div>
+        </div>
+        <br />
+        <div class="row">
+            <div class="col-md-4">
+                <input type="reset" class="btn btn-warning btn-sm" value="Limpiar" />
+                <input type="button" class="btn btn-info btn-sm" value="Registrar" id="btnRegistrarCliente" />
+            </div>
+            <div class="col-md-8" id="resultadoRegistrarCliente"></div>
+        </div>
+    </div>
+</fieldset>
+
+<script type="text/javascript">
+    // Registrar cliente
+    $("#btnRegistrarCliente").click(function () {
+        $("#resultadoRegistrarCliente").load('@Url.Action("registrarCliente", "GestionarPago")', {
+            formdni: $('#dni').val(),
+            formnombre: $('#nombre').val(),
+            formcorreoElectronico: $('#correoElectronico').val(),
+            formdireccion: $('#direccion').val(),
+            formfechaNacimiento: $('#fechaNacimiento').val(),
+            formesEmpresa: document.getElementById("esEmpresa").checked,
+            formrazonSocial: $('#razonSocial').val(),
+            formruc: $('#ruc').val()
+        })
+    });
+    // Visible datos empresa
+    function checkEsEmpresa() {
+        if (document.getElementById("esEmpresa").checked == '1') {
+            document.getElementById("filaRazonSocial").style.visibility = "visible";
+            document.getElementById("filaRUC").style.visibility = "visible";
+        }
+        else {
+            document.getElementById("filaRazonSocial").style.visibility = "hidden";
+            document.getElementById("filaRUC").style.visibility = "hidden";
+        }
+    }
+</script>

@@ -1,0 +1,7 @@
+﻿@model IEnumerable<C2_Dominio.Entidades.Mesa>
+
+<option id="ninguno" value="ninguno">Seleccione mesa</option>
+@foreach (var m in Model)
+{
+    <option id="@m.id" value="@m.id">Mesa @m.id</option>
+}

@@ -1,0 +1,192 @@
+C:\Users\Ikaro\Desktop\Restaurante\SistemaVentasRestaurante\C4_Presentación\bin\C4_Presentación.dll.config
+C:\Users\Ikaro\Desktop\Restaurante\SistemaVentasRestaurante\C4_Presentación\bin\C4_Presentación.dll
+C:\Users\Ikaro\Desktop\Restaurante\SistemaVentasRestaurante\C4_Presentación\bin\C4_Presentación.pdb
+C:\Users\Ikaro\Desktop\Restaurante\SistemaVentasRestaurante\C4_Presentación\bin\C2_Dominio.dll
+C:\Users\Ikaro\Desktop\Restaurante\SistemaVentasRestaurante\C4_Presentación\bin\C3_Aplicación.dll
+C:\Users\Ikaro\Desktop\Restaurante\SistemaVentasRestaurante\C4_Presentación\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Ikaro\Desktop\Restaurante\SistemaVentasRestaurante\C4_Presentación\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\Users\Ikaro\Desktop\Restaurante\SistemaVentasRestaurante\C4_Presentación\bin\Newtonsoft.Json.dll
+C:\Users\Ikaro\Desktop\Restaurante\SistemaVentasRestaurante\C4_Presentación\bin\System.Web.Helpers.dll
+C:\Users\Ikaro\Desktop\Restaurante\SistemaVentasRestaurante\C4_Presentación\bin\System.Web.Mvc.dll
+C:\Users\Ikaro\Desktop\Restaurante\SistemaVentasRestaurante\C4_Presentación\bin\System.Web.Razor.dll
+C:\Users\Ikaro\Desktop\Restaurante\SistemaVentasRestaurante\C4_Presentación\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Ikaro\Desktop\Restaurante\SistemaVentasRestaurante\C4_Presentación\bin\System.Web.WebPages.dll
+C:\Users\Ikaro\Desktop\Restaurante\SistemaVentasRestaurante\C4_Presentación\bin\System.Web.WebPages.Razor.dll
+C:\Users\Ikaro\Desktop\Restaurante\SistemaVentasRestaurante\C4_Presentación\bin\C2_Dominio.pdb
+C:\Users\Ikaro\Desktop\Restaurante\SistemaVentasRestaurante\C4_Presentación\bin\C3_Aplicación.pdb
+C:\Users\Ikaro\Desktop\Restaurante\SistemaVentasRestaurante\C4_Presentación\bin\Newtonsoft.Json.xml
+C:\Users\Ikaro\Desktop\Restaurante\SistemaVentasRestaurante\C4_Presentación\bin\System.Web.Helpers.xml
+C:\Users\Ikaro\Desktop\Restaurante\SistemaVentasRestaurante\C4_Presentación\bin\System.Web.Mvc.xml
+C:\Users\Ikaro\Desktop\Restaurante\SistemaVentasRestaurante\C4_Presentación\bin\System.Web.Razor.xml
+C:\Users\Ikaro\Desktop\Restaurante\SistemaVentasRestaurante\C4_Presentación\bin\System.Web.WebPages.xml
+C:\Users\Ikaro\Desktop\Restaurante\SistemaVentasRestaurante\C4_Presentación\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Ikaro\Desktop\Restaurante\SistemaVentasRestaurante\C4_Presentación\bin\System.Web.WebPages.Razor.xml
+C:\Users\Ikaro\Desktop\Restaurante\SistemaVentasRestaurante\C4_Presentación\obj\Debug\C4_Presentación.csprojResolveAssemblyReference.cache
+C:\Users\Ikaro\Desktop\Restaurante\SistemaVentasRestaurante\C4_Presentación\obj\Debug\C4_Presentación.dll
+C:\Users\Ikaro\Desktop\Restaurante\SistemaVentasRestaurante\C4_Presentación\obj\Debug\C4_Presentación.pdb
+C:\Users\Ikaro\Desktop\Restaurante\SistemaVentasRestaurante\C4_Presentación\bin\C1_Persistencia.dll
+C:\Users\Ikaro\Desktop\Restaurante\SistemaVentasRestaurante\C4_Presentación\bin\C1_Persistencia.pdb
+D:\[DOWNLOADS]\SistemaVentasRestaurante\C4_Presentación\bin\C4_Presentación.dll.config
+D:\[DOWNLOADS]\SistemaVentasRestaurante\C4_Presentación\bin\C4_Presentación.dll
+D:\[DOWNLOADS]\SistemaVentasRestaurante\C4_Presentación\bin\C4_Presentación.pdb
+D:\[DOWNLOADS]\SistemaVentasRestaurante\C4_Presentación\bin\C2_Dominio.dll
+D:\[DOWNLOADS]\SistemaVentasRestaurante\C4_Presentación\bin\C3_Aplicación.dll
+D:\[DOWNLOADS]\SistemaVentasRestaurante\C4_Presentación\bin\Microsoft.Web.Infrastructure.dll
+D:\[DOWNLOADS]\SistemaVentasRestaurante\C4_Presentación\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+D:\[DOWNLOADS]\SistemaVentasRestaurante\C4_Presentación\bin\Newtonsoft.Json.dll
+D:\[DOWNLOADS]\SistemaVentasRestaurante\C4_Presentación\bin\System.Web.Helpers.dll
+D:\[DOWNLOADS]\SistemaVentasRestaurante\C4_Presentación\bin\System.Web.Mvc.dll
+D:\[DOWNLOADS]\SistemaVentasRestaurante\C4_Presentación\bin\System.Web.Razor.dll
+D:\[DOWNLOADS]\SistemaVentasRestaurante\C4_Presentación\bin\System.Web.WebPages.Deployment.dll
+D:\[DOWNLOADS]\SistemaVentasRestaurante\C4_Presentación\bin\System.Web.WebPages.dll
+D:\[DOWNLOADS]\SistemaVentasRestaurante\C4_Presentación\bin\System.Web.WebPages.Razor.dll
+D:\[DOWNLOADS]\SistemaVentasRestaurante\C4_Presentación\bin\C1_Persistencia.dll
+D:\[DOWNLOADS]\SistemaVentasRestaurante\C4_Presentación\bin\C2_Dominio.pdb
+D:\[DOWNLOADS]\SistemaVentasRestaurante\C4_Presentación\bin\C3_Aplicación.pdb
+D:\[DOWNLOADS]\SistemaVentasRestaurante\C4_Presentación\bin\Newtonsoft.Json.xml
+D:\[DOWNLOADS]\SistemaVentasRestaurante\C4_Presentación\bin\System.Web.Helpers.xml
+D:\[DOWNLOADS]\SistemaVentasRestaurante\C4_Presentación\bin\System.Web.Mvc.xml
+D:\[DOWNLOADS]\SistemaVentasRestaurante\C4_Presentación\bin\System.Web.Razor.xml
+D:\[DOWNLOADS]\SistemaVentasRestaurante\C4_Presentación\bin\System.Web.WebPages.xml
+D:\[DOWNLOADS]\SistemaVentasRestaurante\C4_Presentación\bin\System.Web.WebPages.Deployment.xml
+D:\[DOWNLOADS]\SistemaVentasRestaurante\C4_Presentación\bin\System.Web.WebPages.Razor.xml
+D:\[DOWNLOADS]\SistemaVentasRestaurante\C4_Presentación\bin\C1_Persistencia.pdb
+D:\[DOWNLOADS]\SistemaVentasRestaurante\C4_Presentación\obj\Debug\C4_Presentación.csprojResolveAssemblyReference.cache
+D:\[DOWNLOADS]\SistemaVentasRestaurante\C4_Presentación\obj\Debug\C4_Presentación.dll
+D:\[DOWNLOADS]\SistemaVentasRestaurante\C4_Presentación\obj\Debug\C4_Presentación.pdb
+C:\Users\Walm\Desktop\Calidad\T3\Restaurante\SistemaVentasRestaurante\C4_Presentación\bin\C4_Presentación.dll.config
+C:\Users\Walm\Desktop\Calidad\T3\Restaurante\SistemaVentasRestaurante\C4_Presentación\bin\C4_Presentación.dll
+C:\Users\Walm\Desktop\Calidad\T3\Restaurante\SistemaVentasRestaurante\C4_Presentación\bin\C4_Presentación.pdb
+C:\Users\Walm\Desktop\Calidad\T3\Restaurante\SistemaVentasRestaurante\C4_Presentación\bin\C2_Dominio.dll
+C:\Users\Walm\Desktop\Calidad\T3\Restaurante\SistemaVentasRestaurante\C4_Presentación\bin\C3_Aplicación.dll
+C:\Users\Walm\Desktop\Calidad\T3\Restaurante\SistemaVentasRestaurante\C4_Presentación\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Walm\Desktop\Calidad\T3\Restaurante\SistemaVentasRestaurante\C4_Presentación\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\Users\Walm\Desktop\Calidad\T3\Restaurante\SistemaVentasRestaurante\C4_Presentación\bin\Newtonsoft.Json.dll
+C:\Users\Walm\Desktop\Calidad\T3\Restaurante\SistemaVentasRestaurante\C4_Presentación\bin\System.Net.Http.Formatting.dll
+C:\Users\Walm\Desktop\Calidad\T3\Restaurante\SistemaVentasRestaurante\C4_Presentación\bin\System.Web.Helpers.dll
+C:\Users\Walm\Desktop\Calidad\T3\Restaurante\SistemaVentasRestaurante\C4_Presentación\bin\System.Web.Http.dll
+C:\Users\Walm\Desktop\Calidad\T3\Restaurante\SistemaVentasRestaurante\C4_Presentación\bin\System.Web.Http.WebHost.dll
+C:\Users\Walm\Desktop\Calidad\T3\Restaurante\SistemaVentasRestaurante\C4_Presentación\bin\System.Web.Mvc.dll
+C:\Users\Walm\Desktop\Calidad\T3\Restaurante\SistemaVentasRestaurante\C4_Presentación\bin\System.Web.Razor.dll
+C:\Users\Walm\Desktop\Calidad\T3\Restaurante\SistemaVentasRestaurante\C4_Presentación\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Walm\Desktop\Calidad\T3\Restaurante\SistemaVentasRestaurante\C4_Presentación\bin\System.Web.WebPages.dll
+C:\Users\Walm\Desktop\Calidad\T3\Restaurante\SistemaVentasRestaurante\C4_Presentación\bin\System.Web.WebPages.Razor.dll
+C:\Users\Walm\Desktop\Calidad\T3\Restaurante\SistemaVentasRestaurante\C4_Presentación\bin\C1_Persistencia.dll
+C:\Users\Walm\Desktop\Calidad\T3\Restaurante\SistemaVentasRestaurante\C4_Presentación\bin\C2_Dominio.pdb
+C:\Users\Walm\Desktop\Calidad\T3\Restaurante\SistemaVentasRestaurante\C4_Presentación\bin\C3_Aplicación.pdb
+C:\Users\Walm\Desktop\Calidad\T3\Restaurante\SistemaVentasRestaurante\C4_Presentación\bin\Newtonsoft.Json.xml
+C:\Users\Walm\Desktop\Calidad\T3\Restaurante\SistemaVentasRestaurante\C4_Presentación\bin\System.Net.Http.Formatting.xml
+C:\Users\Walm\Desktop\Calidad\T3\Restaurante\SistemaVentasRestaurante\C4_Presentación\bin\System.Web.Helpers.xml
+C:\Users\Walm\Desktop\Calidad\T3\Restaurante\SistemaVentasRestaurante\C4_Presentación\bin\System.Web.Http.xml
+C:\Users\Walm\Desktop\Calidad\T3\Restaurante\SistemaVentasRestaurante\C4_Presentación\bin\System.Web.Http.WebHost.xml
+C:\Users\Walm\Desktop\Calidad\T3\Restaurante\SistemaVentasRestaurante\C4_Presentación\bin\System.Web.Mvc.xml
+C:\Users\Walm\Desktop\Calidad\T3\Restaurante\SistemaVentasRestaurante\C4_Presentación\bin\System.Web.Razor.xml
+C:\Users\Walm\Desktop\Calidad\T3\Restaurante\SistemaVentasRestaurante\C4_Presentación\bin\System.Web.WebPages.xml
+C:\Users\Walm\Desktop\Calidad\T3\Restaurante\SistemaVentasRestaurante\C4_Presentación\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Walm\Desktop\Calidad\T3\Restaurante\SistemaVentasRestaurante\C4_Presentación\bin\System.Web.WebPages.Razor.xml
+C:\Users\Walm\Desktop\Calidad\T3\Restaurante\SistemaVentasRestaurante\C4_Presentación\bin\C1_Persistencia.pdb
+C:\Users\Walm\Desktop\Calidad\T3\Restaurante\SistemaVentasRestaurante\C4_Presentación\obj\Debug\C4_Presentación.csprojResolveAssemblyReference.cache
+C:\Users\Walm\Desktop\Calidad\T3\Restaurante\SistemaVentasRestaurante\C4_Presentación\obj\Debug\C4_Presentación.dll
+C:\Users\Walm\Desktop\Calidad\T3\Restaurante\SistemaVentasRestaurante\C4_Presentación\obj\Debug\C4_Presentación.pdb
+C:\UPN\UPN\UPN2016-1\CAPRS\SistemaVentasRestaurante_Acomodado\SistemaVentasRestaurante\C4_Presentación\bin\C4_Presentación.dll.config
+C:\UPN\UPN\UPN2016-1\CAPRS\SistemaVentasRestaurante_Acomodado\SistemaVentasRestaurante\C4_Presentación\bin\C4_Presentación.dll
+C:\UPN\UPN\UPN2016-1\CAPRS\SistemaVentasRestaurante_Acomodado\SistemaVentasRestaurante\C4_Presentación\bin\C4_Presentación.pdb
+C:\UPN\UPN\UPN2016-1\CAPRS\SistemaVentasRestaurante_Acomodado\SistemaVentasRestaurante\C4_Presentación\bin\C2_Dominio.dll
+C:\UPN\UPN\UPN2016-1\CAPRS\SistemaVentasRestaurante_Acomodado\SistemaVentasRestaurante\C4_Presentación\bin\C3_Aplicación.dll
+C:\UPN\UPN\UPN2016-1\CAPRS\SistemaVentasRestaurante_Acomodado\SistemaVentasRestaurante\C4_Presentación\bin\Microsoft.Web.Infrastructure.dll
+C:\UPN\UPN\UPN2016-1\CAPRS\SistemaVentasRestaurante_Acomodado\SistemaVentasRestaurante\C4_Presentación\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\UPN\UPN\UPN2016-1\CAPRS\SistemaVentasRestaurante_Acomodado\SistemaVentasRestaurante\C4_Presentación\bin\Newtonsoft.Json.dll
+C:\UPN\UPN\UPN2016-1\CAPRS\SistemaVentasRestaurante_Acomodado\SistemaVentasRestaurante\C4_Presentación\bin\System.Net.Http.Formatting.dll
+C:\UPN\UPN\UPN2016-1\CAPRS\SistemaVentasRestaurante_Acomodado\SistemaVentasRestaurante\C4_Presentación\bin\System.Web.Helpers.dll
+C:\UPN\UPN\UPN2016-1\CAPRS\SistemaVentasRestaurante_Acomodado\SistemaVentasRestaurante\C4_Presentación\bin\System.Web.Http.dll
+C:\UPN\UPN\UPN2016-1\CAPRS\SistemaVentasRestaurante_Acomodado\SistemaVentasRestaurante\C4_Presentación\bin\System.Web.Http.WebHost.dll
+C:\UPN\UPN\UPN2016-1\CAPRS\SistemaVentasRestaurante_Acomodado\SistemaVentasRestaurante\C4_Presentación\bin\System.Web.Mvc.dll
+C:\UPN\UPN\UPN2016-1\CAPRS\SistemaVentasRestaurante_Acomodado\SistemaVentasRestaurante\C4_Presentación\bin\System.Web.Razor.dll
+C:\UPN\UPN\UPN2016-1\CAPRS\SistemaVentasRestaurante_Acomodado\SistemaVentasRestaurante\C4_Presentación\bin\System.Web.WebPages.Deployment.dll
+C:\UPN\UPN\UPN2016-1\CAPRS\SistemaVentasRestaurante_Acomodado\SistemaVentasRestaurante\C4_Presentación\bin\System.Web.WebPages.dll
+C:\UPN\UPN\UPN2016-1\CAPRS\SistemaVentasRestaurante_Acomodado\SistemaVentasRestaurante\C4_Presentación\bin\System.Web.WebPages.Razor.dll
+C:\UPN\UPN\UPN2016-1\CAPRS\SistemaVentasRestaurante_Acomodado\SistemaVentasRestaurante\C4_Presentación\bin\C1_Persistencia.dll
+C:\UPN\UPN\UPN2016-1\CAPRS\SistemaVentasRestaurante_Acomodado\SistemaVentasRestaurante\C4_Presentación\bin\C2_Dominio.pdb
+C:\UPN\UPN\UPN2016-1\CAPRS\SistemaVentasRestaurante_Acomodado\SistemaVentasRestaurante\C4_Presentación\bin\C3_Aplicación.pdb
+C:\UPN\UPN\UPN2016-1\CAPRS\SistemaVentasRestaurante_Acomodado\SistemaVentasRestaurante\C4_Presentación\bin\Newtonsoft.Json.xml
+C:\UPN\UPN\UPN2016-1\CAPRS\SistemaVentasRestaurante_Acomodado\SistemaVentasRestaurante\C4_Presentación\bin\System.Net.Http.Formatting.xml
+C:\UPN\UPN\UPN2016-1\CAPRS\SistemaVentasRestaurante_Acomodado\SistemaVentasRestaurante\C4_Presentación\bin\System.Web.Helpers.xml
+C:\UPN\UPN\UPN2016-1\CAPRS\SistemaVentasRestaurante_Acomodado\SistemaVentasRestaurante\C4_Presentación\bin\System.Web.Http.xml
+C:\UPN\UPN\UPN2016-1\CAPRS\SistemaVentasRestaurante_Acomodado\SistemaVentasRestaurante\C4_Presentación\bin\System.Web.Http.WebHost.xml
+C:\UPN\UPN\UPN2016-1\CAPRS\SistemaVentasRestaurante_Acomodado\SistemaVentasRestaurante\C4_Presentación\bin\System.Web.Mvc.xml
+C:\UPN\UPN\UPN2016-1\CAPRS\SistemaVentasRestaurante_Acomodado\SistemaVentasRestaurante\C4_Presentación\bin\System.Web.Razor.xml
+C:\UPN\UPN\UPN2016-1\CAPRS\SistemaVentasRestaurante_Acomodado\SistemaVentasRestaurante\C4_Presentación\bin\System.Web.WebPages.xml
+C:\UPN\UPN\UPN2016-1\CAPRS\SistemaVentasRestaurante_Acomodado\SistemaVentasRestaurante\C4_Presentación\bin\System.Web.WebPages.Deployment.xml
+C:\UPN\UPN\UPN2016-1\CAPRS\SistemaVentasRestaurante_Acomodado\SistemaVentasRestaurante\C4_Presentación\bin\System.Web.WebPages.Razor.xml
+C:\UPN\UPN\UPN2016-1\CAPRS\SistemaVentasRestaurante_Acomodado\SistemaVentasRestaurante\C4_Presentación\bin\C1_Persistencia.pdb
+C:\UPN\UPN\UPN2016-1\CAPRS\SistemaVentasRestaurante_Acomodado\SistemaVentasRestaurante\C4_Presentación\obj\Debug\C4_Presentación.csprojResolveAssemblyReference.cache
+C:\UPN\UPN\UPN2016-1\CAPRS\SistemaVentasRestaurante_Acomodado\SistemaVentasRestaurante\C4_Presentación\obj\Debug\C4_Presentación.dll
+C:\UPN\UPN\UPN2016-1\CAPRS\SistemaVentasRestaurante_Acomodado\SistemaVentasRestaurante\C4_Presentación\obj\Debug\C4_Presentación.pdb
+C:\Users\Rodriguez\Documents\Visual Studio 2013\Projects\SistemaVentasRestaurante_Acomodado\SistemaVentasRestaurante\C4_Presentación\bin\C4_Presentación.dll.config
+C:\Users\Rodriguez\Documents\Visual Studio 2013\Projects\SistemaVentasRestaurante_Acomodado\SistemaVentasRestaurante\C4_Presentación\bin\C4_Presentación.dll
+C:\Users\Rodriguez\Documents\Visual Studio 2013\Projects\SistemaVentasRestaurante_Acomodado\SistemaVentasRestaurante\C4_Presentación\bin\C4_Presentación.pdb
+C:\Users\Rodriguez\Documents\Visual Studio 2013\Projects\SistemaVentasRestaurante_Acomodado\SistemaVentasRestaurante\C4_Presentación\bin\C2_Dominio.dll
+C:\Users\Rodriguez\Documents\Visual Studio 2013\Projects\SistemaVentasRestaurante_Acomodado\SistemaVentasRestaurante\C4_Presentación\bin\C3_Aplicación.dll
+C:\Users\Rodriguez\Documents\Visual Studio 2013\Projects\SistemaVentasRestaurante_Acomodado\SistemaVentasRestaurante\C4_Presentación\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Rodriguez\Documents\Visual Studio 2013\Projects\SistemaVentasRestaurante_Acomodado\SistemaVentasRestaurante\C4_Presentación\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\Users\Rodriguez\Documents\Visual Studio 2013\Projects\SistemaVentasRestaurante_Acomodado\SistemaVentasRestaurante\C4_Presentación\bin\Newtonsoft.Json.dll
+C:\Users\Rodriguez\Documents\Visual Studio 2013\Projects\SistemaVentasRestaurante_Acomodado\SistemaVentasRestaurante\C4_Presentación\bin\System.Net.Http.Formatting.dll
+C:\Users\Rodriguez\Documents\Visual Studio 2013\Projects\SistemaVentasRestaurante_Acomodado\SistemaVentasRestaurante\C4_Presentación\bin\System.Web.Helpers.dll
+C:\Users\Rodriguez\Documents\Visual Studio 2013\Projects\SistemaVentasRestaurante_Acomodado\SistemaVentasRestaurante\C4_Presentación\bin\System.Web.Http.dll
+C:\Users\Rodriguez\Documents\Visual Studio 2013\Projects\SistemaVentasRestaurante_Acomodado\SistemaVentasRestaurante\C4_Presentación\bin\System.Web.Http.WebHost.dll
+C:\Users\Rodriguez\Documents\Visual Studio 2013\Projects\SistemaVentasRestaurante_Acomodado\SistemaVentasRestaurante\C4_Presentación\bin\System.Web.Mvc.dll
+C:\Users\Rodriguez\Documents\Visual Studio 2013\Projects\SistemaVentasRestaurante_Acomodado\SistemaVentasRestaurante\C4_Presentación\bin\System.Web.Razor.dll
+C:\Users\Rodriguez\Documents\Visual Studio 2013\Projects\SistemaVentasRestaurante_Acomodado\SistemaVentasRestaurante\C4_Presentación\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Rodriguez\Documents\Visual Studio 2013\Projects\SistemaVentasRestaurante_Acomodado\SistemaVentasRestaurante\C4_Presentación\bin\System.Web.WebPages.dll
+C:\Users\Rodriguez\Documents\Visual Studio 2013\Projects\SistemaVentasRestaurante_Acomodado\SistemaVentasRestaurante\C4_Presentación\bin\System.Web.WebPages.Razor.dll
+C:\Users\Rodriguez\Documents\Visual Studio 2013\Projects\SistemaVentasRestaurante_Acomodado\SistemaVentasRestaurante\C4_Presentación\bin\C1_Persistencia.dll
+C:\Users\Rodriguez\Documents\Visual Studio 2013\Projects\SistemaVentasRestaurante_Acomodado\SistemaVentasRestaurante\C4_Presentación\bin\C2_Dominio.pdb
+C:\Users\Rodriguez\Documents\Visual Studio 2013\Projects\SistemaVentasRestaurante_Acomodado\SistemaVentasRestaurante\C4_Presentación\bin\C3_Aplicación.pdb
+C:\Users\Rodriguez\Documents\Visual Studio 2013\Projects\SistemaVentasRestaurante_Acomodado\SistemaVentasRestaurante\C4_Presentación\bin\Newtonsoft.Json.xml
+C:\Users\Rodriguez\Documents\Visual Studio 2013\Projects\SistemaVentasRestaurante_Acomodado\SistemaVentasRestaurante\C4_Presentación\bin\System.Net.Http.Formatting.xml
+C:\Users\Rodriguez\Documents\Visual Studio 2013\Projects\SistemaVentasRestaurante_Acomodado\SistemaVentasRestaurante\C4_Presentación\bin\System.Web.Helpers.xml
+C:\Users\Rodriguez\Documents\Visual Studio 2013\Projects\SistemaVentasRestaurante_Acomodado\SistemaVentasRestaurante\C4_Presentación\bin\System.Web.Http.xml
+C:\Users\Rodriguez\Documents\Visual Studio 2013\Projects\SistemaVentasRestaurante_Acomodado\SistemaVentasRestaurante\C4_Presentación\bin\System.Web.Http.WebHost.xml
+C:\Users\Rodriguez\Documents\Visual Studio 2013\Projects\SistemaVentasRestaurante_Acomodado\SistemaVentasRestaurante\C4_Presentación\bin\System.Web.Mvc.xml
+C:\Users\Rodriguez\Documents\Visual Studio 2013\Projects\SistemaVentasRestaurante_Acomodado\SistemaVentasRestaurante\C4_Presentación\bin\System.Web.Razor.xml
+C:\Users\Rodriguez\Documents\Visual Studio 2013\Projects\SistemaVentasRestaurante_Acomodado\SistemaVentasRestaurante\C4_Presentación\bin\System.Web.WebPages.xml
+C:\Users\Rodriguez\Documents\Visual Studio 2013\Projects\SistemaVentasRestaurante_Acomodado\SistemaVentasRestaurante\C4_Presentación\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Rodriguez\Documents\Visual Studio 2013\Projects\SistemaVentasRestaurante_Acomodado\SistemaVentasRestaurante\C4_Presentación\bin\System.Web.WebPages.Razor.xml
+C:\Users\Rodriguez\Documents\Visual Studio 2013\Projects\SistemaVentasRestaurante_Acomodado\SistemaVentasRestaurante\C4_Presentación\bin\C1_Persistencia.pdb
+C:\Users\Rodriguez\Documents\Visual Studio 2013\Projects\SistemaVentasRestaurante_Acomodado\SistemaVentasRestaurante\C4_Presentación\obj\Debug\C4_Presentación.csprojResolveAssemblyReference.cache
+C:\Users\Rodriguez\Documents\Visual Studio 2013\Projects\SistemaVentasRestaurante_Acomodado\SistemaVentasRestaurante\C4_Presentación\obj\Debug\C4_Presentación.dll
+C:\Users\Rodriguez\Documents\Visual Studio 2013\Projects\SistemaVentasRestaurante_Acomodado\SistemaVentasRestaurante\C4_Presentación\obj\Debug\C4_Presentación.pdb
+C:\Users\Rodriguez\Documents\Visual Studio 2013\Projects\SistemaVentasRestaurante\C4_Presentación\bin\C4_Presentación.dll.config
+C:\Users\Rodriguez\Documents\Visual Studio 2013\Projects\SistemaVentasRestaurante\C4_Presentación\bin\C4_Presentación.dll
+C:\Users\Rodriguez\Documents\Visual Studio 2013\Projects\SistemaVentasRestaurante\C4_Presentación\bin\C4_Presentación.pdb
+C:\Users\Rodriguez\Documents\Visual Studio 2013\Projects\SistemaVentasRestaurante\C4_Presentación\bin\C2_Dominio.dll
+C:\Users\Rodriguez\Documents\Visual Studio 2013\Projects\SistemaVentasRestaurante\C4_Presentación\bin\C3_Aplicación.dll
+C:\Users\Rodriguez\Documents\Visual Studio 2013\Projects\SistemaVentasRestaurante\C4_Presentación\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Rodriguez\Documents\Visual Studio 2013\Projects\SistemaVentasRestaurante\C4_Presentación\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\Users\Rodriguez\Documents\Visual Studio 2013\Projects\SistemaVentasRestaurante\C4_Presentación\bin\Newtonsoft.Json.dll
+C:\Users\Rodriguez\Documents\Visual Studio 2013\Projects\SistemaVentasRestaurante\C4_Presentación\bin\System.Net.Http.Formatting.dll
+C:\Users\Rodriguez\Documents\Visual Studio 2013\Projects\SistemaVentasRestaurante\C4_Presentación\bin\System.Web.Helpers.dll
+C:\Users\Rodriguez\Documents\Visual Studio 2013\Projects\SistemaVentasRestaurante\C4_Presentación\bin\System.Web.Http.dll
+C:\Users\Rodriguez\Documents\Visual Studio 2013\Projects\SistemaVentasRestaurante\C4_Presentación\bin\System.Web.Http.WebHost.dll
+C:\Users\Rodriguez\Documents\Visual Studio 2013\Projects\SistemaVentasRestaurante\C4_Presentación\bin\System.Web.Mvc.dll
+C:\Users\Rodriguez\Documents\Visual Studio 2013\Projects\SistemaVentasRestaurante\C4_Presentación\bin\System.Web.Razor.dll
+C:\Users\Rodriguez\Documents\Visual Studio 2013\Projects\SistemaVentasRestaurante\C4_Presentación\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Rodriguez\Documents\Visual Studio 2013\Projects\SistemaVentasRestaurante\C4_Presentación\bin\System.Web.WebPages.dll
+C:\Users\Rodriguez\Documents\Visual Studio 2013\Projects\SistemaVentasRestaurante\C4_Presentación\bin\System.Web.WebPages.Razor.dll
+C:\Users\Rodriguez\Documents\Visual Studio 2013\Projects\SistemaVentasRestaurante\C4_Presentación\bin\C1_Persistencia.dll
+C:\Users\Rodriguez\Documents\Visual Studio 2013\Projects\SistemaVentasRestaurante\C4_Presentación\bin\C2_Dominio.pdb
+C:\Users\Rodriguez\Documents\Visual Studio 2013\Projects\SistemaVentasRestaurante\C4_Presentación\bin\C3_Aplicación.pdb
+C:\Users\Rodriguez\Documents\Visual Studio 2013\Projects\SistemaVentasRestaurante\C4_Presentación\bin\Newtonsoft.Json.xml
+C:\Users\Rodriguez\Documents\Visual Studio 2013\Projects\SistemaVentasRestaurante\C4_Presentación\bin\System.Net.Http.Formatting.xml
+C:\Users\Rodriguez\Documents\Visual Studio 2013\Projects\SistemaVentasRestaurante\C4_Presentación\bin\System.Web.Helpers.xml
+C:\Users\Rodriguez\Documents\Visual Studio 2013\Projects\SistemaVentasRestaurante\C4_Presentación\bin\System.Web.Http.xml
+C:\Users\Rodriguez\Documents\Visual Studio 2013\Projects\SistemaVentasRestaurante\C4_Presentación\bin\System.Web.Http.WebHost.xml
+C:\Users\Rodriguez\Documents\Visual Studio 2013\Projects\SistemaVentasRestaurante\C4_Presentación\bin\System.Web.Mvc.xml
+C:\Users\Rodriguez\Documents\Visual Studio 2013\Projects\SistemaVentasRestaurante\C4_Presentación\bin\System.Web.Razor.xml
+C:\Users\Rodriguez\Documents\Visual Studio 2013\Projects\SistemaVentasRestaurante\C4_Presentación\bin\System.Web.WebPages.xml
+C:\Users\Rodriguez\Documents\Visual Studio 2013\Projects\SistemaVentasRestaurante\C4_Presentación\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Rodriguez\Documents\Visual Studio 2013\Projects\SistemaVentasRestaurante\C4_Presentación\bin\System.Web.WebPages.Razor.xml
+C:\Users\Rodriguez\Documents\Visual Studio 2013\Projects\SistemaVentasRestaurante\C4_Presentación\bin\C1_Persistencia.pdb
+C:\Users\Rodriguez\Documents\Visual Studio 2013\Projects\SistemaVentasRestaurante\C4_Presentación\obj\Debug\C4_Presentación.csprojResolveAssemblyReference.cache
+C:\Users\Rodriguez\Documents\Visual Studio 2013\Projects\SistemaVentasRestaurante\C4_Presentación\obj\Debug\C4_Presentación.dll
+C:\Users\Rodriguez\Documents\Visual Studio 2013\Projects\SistemaVentasRestaurante\C4_Presentación\obj\Debug\C4_Presentación.pdb

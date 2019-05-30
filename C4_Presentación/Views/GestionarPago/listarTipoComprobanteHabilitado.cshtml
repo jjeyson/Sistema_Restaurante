@@ -1,0 +1,7 @@
+﻿@model IEnumerable<C2_Dominio.Entidades.TipoComprobante>
+
+<option id="ninguno" value="ninguno">Documento de pago</option>
+@foreach (var m in Model)
+{
+    <option id="@m.id" value="@m.id">@m.descripcion</option>
+}

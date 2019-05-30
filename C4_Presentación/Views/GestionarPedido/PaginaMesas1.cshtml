@@ -1,0 +1,84 @@
+﻿@model IEnumerable<C2_Dominio.Entidades.Mesa>
+
+@{
+    Layout = "~/Views/PaginaMaestra_Core.cshtml";
+}
+
+
+
+
+    <noscript>
+        <div class="alert alert-block col-md-9">
+            <h4 class="alert-heading">Warning!</h4>
+
+            <p>
+                You need to have <a href="http://en.wikipedia.org/wiki/JavaScript" target="_blank">JavaScript</a>
+                enabled to use this site.
+            </p>
+        </div>
+    </noscript>
+
+        <div class="ch-container">
+            <!-- Single Item Start -->
+            <br />
+            <table style="width:100%" class="table table-striped table-bordered responsive">
+                <thead style="background-color:yellow">
+                    <tr>
+                        <td>N° de Mesa</td>
+                        <td>Cantidad Asientos</td>
+                        <td>Estado</td>
+                        <td>Accion</td>
+                        @*<td>Habilitado</td>*@
+                    </tr>
+                </thead>                
+                <tbody>
+                    @foreach (var m in Model)
+                    {
+                        <tr>
+                            <td align="center">@Html.DisplayFor(modelItem => m.id)</td>
+                            <td align="center">@Html.DisplayFor(modelItem => m.cantidadAsientos)</td>
+                            @if (m.disponible == false)
+                            {
+                                <td align="center">OCUPADO</td>
+                                <td></td>
+                                @*<td align="center">@Html.ActionLink("Editar Pedido", "EditarHotel", new { id = m.id })</td>*@
+                            }
+                            else if (m.disponible == true)
+                            {
+                                <td align="center">DISPONIBLE</td>
+                                <td align="center">@Html.ActionLink("Realizar Pedido", "PaginaPedidook", new { id = m.id })</td>
+                                @*<td align="center"><input id="InicioSesion" type="button" value="Realiza Pedido" /><div id="Inicio"></div></td>
+                                    <td> <style="visibility:hidden" input type="text"  id="txtPassword" style="width: 150px" value=@Html.DisplayFor(modelItem => m.id) /></td>*@
+                            }
+                            @*>@Html.ActionLink(x.descripcion, "PedidoList", "Pedido", new { Categoria_ID = x.id }, null)*@
+                            @*<td>@Html.DisplayFor(modelItem => m.habilitado)</td>*@
+                        </tr>
+                    }
+            </tbody>
+        </table>
+           <!-- Single Item End -->
+</div><!-- / Inner Page Content End -->
+
+@*<script type="text/javascript">
+    $("#InicioSesion").click(function () {
+        $("#Inicio").load('@Url.Action("PaginaPedido", "GestionarPedido")', {
+            User: $('#txtPassword').val()
+        })
+    });
+      </script>*@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

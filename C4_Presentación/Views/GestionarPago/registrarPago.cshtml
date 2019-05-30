@@ -1,0 +1,70 @@
+﻿@model C2_Dominio.Entidades.Pago
+
+@switch (Model.numeroError)
+{
+    case 0:
+        <h3 style="text-align: center; color: green">¡Pago registrado satisfactoriamente!</h3>
+        if (@Model.tipoComprobante.descripcion.Equals("Factura")) {
+            <table align="center">
+                <tr>
+                    <td valign="top"><strong>Datos de @Model.tipoComprobante.descripcion (S/.):</strong></td>
+                    <td>
+                        <strong>Razon Social</strong><br />
+                        <strong>RUC</strong><br />
+                        <hr />
+                        <strong>Sub Total</strong><br />
+                        <strong>IGV</strong><br />
+                        <hr />
+                        <strong>Total a pagar</strong>
+                    </td>
+                    <td>
+                        @Model.cliente.razonSocial<br />
+                        @Model.cliente.ruc<br />
+                        <hr />
+                        @Model.pagoSubTotalIGV<br />
+                        @Model.pagoIGV<br />
+                        <hr />
+                        @Model.pagoTotal
+                    </td>
+                </tr>
+            </table>
+        }
+        else
+        {
+            <table align="center">
+                <tr>
+                    <td valign="top"><strong>Datos de @Model.tipoComprobante.descripcion (S/.):</strong></td>
+                    <td>
+                        <strong>Nombre</strong><br />
+                        <strong>Dirección</strong><br />
+                        <hr />
+                        <strong>Total a pagar</strong>
+                    </td>
+                    <td>
+                        @Model.cliente.nombre<br />
+                        @Model.cliente.direccion<br />
+                        <hr />
+                        @Model.pagoTotal
+                    </td>
+                </tr>
+            </table>
+        }
+        <br />
+        <div style="text-align:center">
+            <input type="button" class="btn btn-success btn-lg" data-dismiss="modal" value="Nuevo pago" onclick="nuevoPago();" />
+        </div>
+        break;
+    case 1:
+        <h3 style="text-align: center; color: red">Error de conexión</h3>
+        <hr />
+        <div style="text-align:center">Contacte con el servicio técnico o intentelo mas tarde.</div>
+        <hr />
+        <div style="text-align:center">
+            <input type="button" class="btn btn-danger btn-lg" data-dismiss="modal" value="Cerrar" onclick="nuevoPago();"  />
+        </div>
+        break;
+}
+
+<script type="text/javascript">
+    function nuevoPago() { document.location = '@Url.Action("Principal","GestionarPago")' }
+</script>

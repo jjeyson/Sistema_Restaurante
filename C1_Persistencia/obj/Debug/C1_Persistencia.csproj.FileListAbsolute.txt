@@ -1,0 +1,47 @@
+C:\Users\Ikaro\Desktop\Restaurante\SistemaVentasRestaurante\C1_Persistencia\bin\Debug\C1_Persistencia.dll
+C:\Users\Ikaro\Desktop\Restaurante\SistemaVentasRestaurante\C1_Persistencia\bin\Debug\C1_Persistencia.pdb
+C:\Users\Ikaro\Desktop\Restaurante\SistemaVentasRestaurante\C1_Persistencia\bin\Debug\C2_Dominio.dll
+C:\Users\Ikaro\Desktop\Restaurante\SistemaVentasRestaurante\C1_Persistencia\bin\Debug\C2_Dominio.pdb
+C:\Users\Ikaro\Desktop\Restaurante\SistemaVentasRestaurante\C1_Persistencia\obj\Debug\C1_Persistencia.csprojResolveAssemblyReference.cache
+C:\Users\Ikaro\Desktop\Restaurante\SistemaVentasRestaurante\C1_Persistencia\obj\Debug\C1_Persistencia.dll
+C:\Users\Ikaro\Desktop\Restaurante\SistemaVentasRestaurante\C1_Persistencia\obj\Debug\C1_Persistencia.pdb
+D:\[DOWNLOADS]\SistemaVentasRestaurante\C1_Persistencia\bin\Debug\C1_Persistencia.dll
+D:\[DOWNLOADS]\SistemaVentasRestaurante\C1_Persistencia\bin\Debug\C1_Persistencia.pdb
+D:\[DOWNLOADS]\SistemaVentasRestaurante\C1_Persistencia\bin\Debug\C2_Dominio.dll
+D:\[DOWNLOADS]\SistemaVentasRestaurante\C1_Persistencia\bin\Debug\C2_Dominio.pdb
+D:\[DOWNLOADS]\SistemaVentasRestaurante\C1_Persistencia\obj\Debug\C1_Persistencia.csprojResolveAssemblyReference.cache
+D:\[DOWNLOADS]\SistemaVentasRestaurante\C1_Persistencia\obj\Debug\C1_Persistencia.dll
+D:\[DOWNLOADS]\SistemaVentasRestaurante\C1_Persistencia\obj\Debug\C1_Persistencia.pdb
+C:\Users\Ikaro\Desktop\Restaurante\SistemaVentasRestaurante\C1_Persistencia\bin\Debug\C1_Persistencia.dll.config
+C:\Users\Walm\Desktop\Calidad\T3\Restaurante\SistemaVentasRestaurante\C1_Persistencia\bin\Debug\C1_Persistencia.dll.config
+C:\Users\Walm\Desktop\Calidad\T3\Restaurante\SistemaVentasRestaurante\C1_Persistencia\bin\Debug\C1_Persistencia.dll
+C:\Users\Walm\Desktop\Calidad\T3\Restaurante\SistemaVentasRestaurante\C1_Persistencia\bin\Debug\C1_Persistencia.pdb
+C:\Users\Walm\Desktop\Calidad\T3\Restaurante\SistemaVentasRestaurante\C1_Persistencia\bin\Debug\C2_Dominio.dll
+C:\Users\Walm\Desktop\Calidad\T3\Restaurante\SistemaVentasRestaurante\C1_Persistencia\bin\Debug\C2_Dominio.pdb
+C:\Users\Walm\Desktop\Calidad\T3\Restaurante\SistemaVentasRestaurante\C1_Persistencia\obj\Debug\C1_Persistencia.csprojResolveAssemblyReference.cache
+C:\Users\Walm\Desktop\Calidad\T3\Restaurante\SistemaVentasRestaurante\C1_Persistencia\obj\Debug\C1_Persistencia.dll
+C:\Users\Walm\Desktop\Calidad\T3\Restaurante\SistemaVentasRestaurante\C1_Persistencia\obj\Debug\C1_Persistencia.pdb
+C:\UPN\UPN\UPN2016-1\CAPRS\SistemaVentasRestaurante_Acomodado\SistemaVentasRestaurante\C1_Persistencia\bin\Debug\C1_Persistencia.dll.config
+C:\UPN\UPN\UPN2016-1\CAPRS\SistemaVentasRestaurante_Acomodado\SistemaVentasRestaurante\C1_Persistencia\bin\Debug\C1_Persistencia.dll
+C:\UPN\UPN\UPN2016-1\CAPRS\SistemaVentasRestaurante_Acomodado\SistemaVentasRestaurante\C1_Persistencia\bin\Debug\C1_Persistencia.pdb
+C:\UPN\UPN\UPN2016-1\CAPRS\SistemaVentasRestaurante_Acomodado\SistemaVentasRestaurante\C1_Persistencia\bin\Debug\C2_Dominio.dll
+C:\UPN\UPN\UPN2016-1\CAPRS\SistemaVentasRestaurante_Acomodado\SistemaVentasRestaurante\C1_Persistencia\bin\Debug\C2_Dominio.pdb
+C:\UPN\UPN\UPN2016-1\CAPRS\SistemaVentasRestaurante_Acomodado\SistemaVentasRestaurante\C1_Persistencia\obj\Debug\C1_Persistencia.csprojResolveAssemblyReference.cache
+C:\UPN\UPN\UPN2016-1\CAPRS\SistemaVentasRestaurante_Acomodado\SistemaVentasRestaurante\C1_Persistencia\obj\Debug\C1_Persistencia.dll
+C:\UPN\UPN\UPN2016-1\CAPRS\SistemaVentasRestaurante_Acomodado\SistemaVentasRestaurante\C1_Persistencia\obj\Debug\C1_Persistencia.pdb
+C:\Users\Rodriguez\Documents\Visual Studio 2013\Projects\SistemaVentasRestaurante_Acomodado\SistemaVentasRestaurante\C1_Persistencia\bin\Debug\C1_Persistencia.dll.config
+C:\Users\Rodriguez\Documents\Visual Studio 2013\Projects\SistemaVentasRestaurante_Acomodado\SistemaVentasRestaurante\C1_Persistencia\bin\Debug\C1_Persistencia.dll
+C:\Users\Rodriguez\Documents\Visual Studio 2013\Projects\SistemaVentasRestaurante_Acomodado\SistemaVentasRestaurante\C1_Persistencia\bin\Debug\C1_Persistencia.pdb
+C:\Users\Rodriguez\Documents\Visual Studio 2013\Projects\SistemaVentasRestaurante_Acomodado\SistemaVentasRestaurante\C1_Persistencia\bin\Debug\C2_Dominio.dll
+C:\Users\Rodriguez\Documents\Visual Studio 2013\Projects\SistemaVentasRestaurante_Acomodado\SistemaVentasRestaurante\C1_Persistencia\bin\Debug\C2_Dominio.pdb
+C:\Users\Rodriguez\Documents\Visual Studio 2013\Projects\SistemaVentasRestaurante_Acomodado\SistemaVentasRestaurante\C1_Persistencia\obj\Debug\C1_Persistencia.csprojResolveAssemblyReference.cache
+C:\Users\Rodriguez\Documents\Visual Studio 2013\Projects\SistemaVentasRestaurante_Acomodado\SistemaVentasRestaurante\C1_Persistencia\obj\Debug\C1_Persistencia.dll
+C:\Users\Rodriguez\Documents\Visual Studio 2013\Projects\SistemaVentasRestaurante_Acomodado\SistemaVentasRestaurante\C1_Persistencia\obj\Debug\C1_Persistencia.pdb
+C:\Users\Rodriguez\Documents\Visual Studio 2013\Projects\SistemaVentasRestaurante\C1_Persistencia\bin\Debug\C1_Persistencia.dll.config
+C:\Users\Rodriguez\Documents\Visual Studio 2013\Projects\SistemaVentasRestaurante\C1_Persistencia\bin\Debug\C1_Persistencia.dll
+C:\Users\Rodriguez\Documents\Visual Studio 2013\Projects\SistemaVentasRestaurante\C1_Persistencia\bin\Debug\C1_Persistencia.pdb
+C:\Users\Rodriguez\Documents\Visual Studio 2013\Projects\SistemaVentasRestaurante\C1_Persistencia\bin\Debug\C2_Dominio.dll
+C:\Users\Rodriguez\Documents\Visual Studio 2013\Projects\SistemaVentasRestaurante\C1_Persistencia\bin\Debug\C2_Dominio.pdb
+C:\Users\Rodriguez\Documents\Visual Studio 2013\Projects\SistemaVentasRestaurante\C1_Persistencia\obj\Debug\C1_Persistencia.csprojResolveAssemblyReference.cache
+C:\Users\Rodriguez\Documents\Visual Studio 2013\Projects\SistemaVentasRestaurante\C1_Persistencia\obj\Debug\C1_Persistencia.dll
+C:\Users\Rodriguez\Documents\Visual Studio 2013\Projects\SistemaVentasRestaurante\C1_Persistencia\obj\Debug\C1_Persistencia.pdb

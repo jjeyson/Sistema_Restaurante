@@ -1,0 +1,28 @@
+﻿@model C2_Dominio.Entidades.Pago
+
+@switch(Model.pedido.numeroError)
+{
+    case 0:
+        foreach (var dp in Model.pedido.listaDetallePedido) {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => dp.producto.descripcion)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => dp.producto.precio)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => dp.cantidad)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => dp.subTotal)
+                </td>
+            </tr>
+        }
+        if (Model.cliente.numeroError == 0) { <script>validacionClientePedido("Sí", "Sí")</script>; }
+        else { <script>validacionClientePedido("No", "Sí")</script>; }
+        break;
+    case 1:
+        <script>validacionClientePedido("No", "No")</script>
+        break;
+}

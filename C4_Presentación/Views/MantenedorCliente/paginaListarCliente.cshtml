@@ -1,0 +1,48 @@
+﻿@model IEnumerable<C2_Dominio.Entidades.Cliente>
+@{
+    Layout = "~/Views/PaginaMaestra_MantenedorConsulta.cshtml";
+}
+    <div style="text-align:center">
+        <h3>Listar Cliente</h3>
+    </div>
+        <div class="row" style="text-decoration-color:black">
+            <form action="paginaNuevoCliente" method="get">
+                &emsp;<input type="submit" class="btn btn-primary" value="Nuevo Cliente" name="btnuevo" />
+            </form>
+        </div>
+
+
+    <br />
+
+    <div class="table-responsive">
+        <table id="racetimes" style="width:82%" class="table table-hover">
+            <tr id="firstrow">
+
+                <th>E-mail</th>
+                <th>Direccion</th>
+                <th> Fecha Nacimiento</th>
+                <th> Fecha Registro</th>
+                <th> Hab.</th>
+                <th> DNI</th>
+                <th> Razon Social</th>
+                <th> Nombre  </th>
+                <th> RUC    </th>
+
+                @foreach (var m in Model)
+                {
+                <tr>
+                    <td>@Html.DisplayFor(modelItem => m.correoElectronico)</td>
+                    <td>@Html.DisplayFor(modelItem => m.direccion)</td>
+                    <td>@Html.DisplayFor(modelItem => m.fechaNacimiento)</td>
+                    <td>@Html.DisplayFor(modelItem => m.fechaRegistro)</td>
+                    <td>@Html.DisplayFor(modelItem => m.habilitado)</td>
+                    <td>@Html.DisplayFor(modelItem => m.dni)</td>
+                    <td>@Html.DisplayFor(modelItem => m.razonSocial)</td>
+                    <td>@Html.DisplayFor(modelItem => m.nombre)</td>
+                    <td>@Html.DisplayFor(modelItem => m.ruc)</td>
+
+                    <td>@Html.ActionLink("Editar", "paginaeditarCliente", new { dni = m.dni })</td>
+                </tr>
+                }
+            </table>
+    </div>

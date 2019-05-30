@@ -1,0 +1,104 @@
+﻿@model C2_Dominio.Entidades.Pago
+<br />
+@switch (Model.cliente.numeroError)
+{
+    case 0:
+        <fieldset>
+            @if (Model.cliente.habilitado)
+            {
+                <strong>DNI:</strong>
+                <br />
+                @Html.DisplayFor(model => model.cliente.dni)
+                <br />
+                <strong>Nombre:</strong>
+                <br />
+                @Html.DisplayFor(model => model.cliente.nombre)
+                <br />
+                <strong>Dirección:</strong>
+                <br />
+                @Html.DisplayFor(model => model.cliente.direccion)
+                <br />
+                <strong>Correo electrónico:</strong>
+                <br />
+                @Html.DisplayFor(model => model.cliente.correoElectronico)
+                <br />
+                <strong>Fecha de registro:</strong>
+                <br />
+                @Html.DisplayFor(model => model.cliente.fechaRegistro)
+                <br />
+                <strong>Fecha de nacimiento:</strong>
+                <br />
+                @Html.DisplayFor(model => model.cliente.fechaNacimiento)
+                if (Model.cliente.esEmpresa)
+                {
+                    <br />
+                    <strong>Razon Social:</strong>
+                    <br />
+                    @Html.DisplayFor(model => model.cliente.razonSocial)
+                    <br />
+                    <strong>RUC:</strong>
+                    <br />
+                    @Html.DisplayFor(model => model.cliente.ruc)
+                }
+                if (Model.pedido.numeroError == 0)
+                {
+                <script>validacionClientePedido("Sí", "Sí")</script>;
+                }
+                else
+                {
+                <script>validacionClientePedido("Sí", "No")</script>            ;
+                }
+            }
+            else
+            {
+                <div><strong>ADVERTENCIA</strong></div><div>Cliente no habilitado.</div>
+                <script>validacionClientePedido("No", "No")</script>
+            }
+        </fieldset>
+            break;
+    case 1:
+    <div style="color:red"><strong>ERROR</strong></div><div>DNI solo puede ser de longitud de 8 dígitos.</div>
+    <script>validacionClientePedido("No", "No")</script>
+            break;
+    case 2:
+    <div><strong>ADVERTENCIA</strong></div>
+    <div>
+        Cliente no existente, para registrarlo haga click
+        <strong><a href="#" id="linkFormularioCliente" data-toggle="modal" data-target="#registrarClienteModal">aquí</a></strong>
+    </div>
+    <script>validacionClientePedido("No", "No")</script>
+            break;
+    case 3:
+    <div style="color:red"><strong>ERROR</strong></div><div>DNI no cumple con tener todos sus caracteres numericos.</div>
+    <script>validacionClientePedido("No", "No")</script>
+            break;
+    case 4:
+    <div style="color:red"><strong>ERROR</strong></div><div>DNI no puede ser nulo.</div>
+    <script>validacionClientePedido("No", "No")</script>
+            break;
+}
+
+<!-- modal -->
+<div class="box-content">
+    <div class="modal fade" id="registrarClienteModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+         aria-hidden="true" data-keyboard="false" data-backdrop="static">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">×</button>
+                    <h3>Registrar cliente</h3>
+                </div>
+                <form>
+                    <div class="modal-body" id="bodyModalRegistrarCliente">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript">
+    $("#linkFormularioCliente").click(function () {
+        $("#bodyModalRegistrarCliente").load('@Url.Action("formularioCliente", "GestionarPago")', { dni: $('#dniCliente').val() })
+    });
+</script>

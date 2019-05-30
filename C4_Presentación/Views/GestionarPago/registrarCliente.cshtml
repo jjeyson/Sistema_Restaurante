@@ -1,0 +1,56 @@
+﻿@model C2_Dominio.Entidades.Cliente
+
+@switch(Model.numeroError)
+{
+    case 0:
+        <h4 style="color:green"><strong>¡Cliente registrado satisfactoriamente!</strong></h4>
+        break;
+    case 1:
+        <div style="color:red"><strong>ERROR</strong></div><div>DNI solo puede ser de longitud de 8 dígitos.</div>
+        break;
+    case 2:
+        <div style="color:red"><strong>ERROR</strong></div><div>DNI debe tener todos sus caracteres de tipo numerico.</div>
+        break;
+    case 3:
+        <div style="color:red"><strong>ERROR</strong></div><div>Ingrese o complete la fecha de nacimiento.</div>
+        break;
+    case 4:
+        <div style="color:red"><strong>ERROR</strong></div><div>La fecha de nacimiento es mayor a la actual.</div>
+        break;
+    case 5:
+        <div style="color:red"><strong>ERROR</strong></div><div>El nombre del cliente supera la capacidad de 50 caracteres.</div>
+        break;
+    case 6:
+        <div style="color:red"><strong>ERROR</strong></div><div>El correo electronico supera la capacidad de 20 caracteres.</div>
+        break;
+    case 7:
+        <div style="color:red"><strong>ERROR</strong></div><div>La dirección del cliente supera la capacidad de 50 caracteres.</div>
+        break;
+    case 8:
+        <div style="color:red"><strong>ERROR</strong></div><div>La razon social supera la capacidad de 50 caracteres.</div>
+        break;
+    case 9:
+        <div style="color:red"><strong>ERROR</strong></div><div>RUC solo puede ser de longitud de 11 dígitos.</div>
+        break;
+    case 10:
+        <div style="color:red"><strong>ERROR</strong></div><div>RUC debe tener todos sus caracteres de tipo numerico.</div>
+        break;
+    case 11:
+        <div style="color:red"><strong>ERROR</strong></div><div>DNI no puede ser nulo.</div>
+        break;
+    case 12:
+        <div style="color:red"><strong>ERROR</strong></div><div>El nombre del cliente no puede ser nulo.</div>
+        break;
+    case 13:
+        <div style="color:red"><strong>ERROR</strong></div><div>El cliente quiere sustentar sus gastos para una empresa, la razon social no puede ser nulo.</div>
+        break;
+    case 14:
+        <div style="color:red"><strong>ERROR</strong></div><div>El cliente quiere sustentar sus gastos para una empresa, el RUC no puede ser nulo.</div>
+        break;
+    case 15:
+        <div style="color:red"><strong>ERROR DE CONEXIÓN</strong></div><div>Contacte con el servicio tecnico o intente mas tarde.</div>
+        break;
+    case 16:
+        <div style="color:red"><strong>Cliente existente.</strong></div>
+        break;
+}

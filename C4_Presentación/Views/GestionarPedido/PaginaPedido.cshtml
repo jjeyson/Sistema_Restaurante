@@ -1,0 +1,197 @@
+﻿@{
+    Layout = "~/Views/PaginaMaestra_Core.cshtml";
+}
+
+<div class="ch-container">
+    <div class="row">
+        <div class="box col-md-9">
+            <div class="box-inner">
+                <div class="box-header well" data-original-title="">
+                    <h2><i class="glyphicon glyphicon-bell"></i> Carta Platos</h2>
+
+                    @*<div class="box-icon">
+                            <a href="#" class="btn btn-setting btn-round btn-default">
+                                <i class="glyphicon glyphicon-cog"></i>
+                            </a>
+                            <a href="#" class="btn btn-minimize btn-round btn-default">
+                                <i class="glyphicon glyphicon-chevron-up"></i>
+                            </a>
+                            <a href="#" class="btn btn-close btn-round btn-default">
+                                <i class="glyphicon glyphicon-remove"></i>
+                            </a>
+                        </div>*@
+                </div>
+                <div class="box-content">
+                        @foreach (C2_Dominio.Entidades.Producto x in Model)
+                        {
+                            <div class="col-md-4 col-sm-6">
+                                <!-- Shopping items -->
+                                <div class="shopping-item">
+                                    <!-- Image -->
+                                    @*<img class="img-responsive" src="../Producto/@x.Imagen" alt="" />*@
+                                    <!-- Shopping item name / Heading -->
+                                    <h4 class="pull-left">@x.descripcion</h4>
+                                    <div class="clearfix"></div>
+                                    <form method="post" action="Agregar">
+                                        <table style="width: 100%; padding: 5px; ">
+                                            <tr>
+                                                <td>Cantidad</td>
+                                                <td>
+                                                    <div>
+                                                        <select class="form-control input-sm" name="txtCantidad">
+                                                            <option>1</option>
+                                                            <option>2</option>
+                                                            <option>3</option>
+                                                            <option>4</option>
+                                                            <option>5</option>
+                                                        </select>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <span class="item-price pull-right">S/. @x.precio.ToString("#,###.00")</span>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                        <input type="hidden" name="txtProducto_ID" value="@x.id" />
+                                        <input type="hidden" name="txtNomProducto" value="@x.descripcion" />
+                                        <input type="hidden" name="txtPreUnitario" value="@x.precio" />
+                                        @*<input type="hidden" name="txtImagen" value="@x.Imagen" />*@
+                                        <!-- Buy now button -->
+                                        <input type="submit" name="btnAgregar" value="Agregar" class="btn btn-info btn-sm" />
+                                    </form>
+
+                                </div>
+                            </div>
+
+                        }
+                    <!--/row -->
+
+                    <div class="row">
+                        <div class="col-md-12">
+
+
+                            <div class="row">
+                                <div class="col-md-6">
+
+                                </div>
+                                <div class="col-md-6">
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+
+                        </div>
+                        <div class="col-md-6">
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!--/span-->
+            <div class="box col-md-3">
+                
+                <div class="box-inner">
+                    <div class="box-header well">
+                        <h2>Categoria Platos</h2>
+
+                        @*<div class="box-icon">
+                            <a href="#" class="btn btn-close btn-round btn-default">
+                                <i class="glyphicon glyphicon-remove"></i>
+                            </a>
+                        </div>*@
+                    </div>
+                    <div class="box-content">
+                        <ul>
+                            <li><i class="fa fa-angle-double-right"></i>@Html.ActionLink("Todas", "PaginaPedido", "GestionarPedido", new { Categoria_ID = 0 }, null)</li>
+                            @foreach (C2_Dominio.Entidades.TipoProducto x in C3_Aplicación.GestionarPedidoServicio.Instancia.GetAll(""))
+                            {
+                                <li><i class="fa fa-angle-double-right"></i>@Html.ActionLink(x.descripcion, "PaginaPedido", "GestionarPedido", new { Categoria_ID = x.id }, null)</li>
+                            }
+                        </ul>
+                    </div>
+                </div>
+                <br />
+                <div class="box-inner">
+                    <div class="box-header well">
+                        <h2>Categoria Platos</h2>
+
+                        @*<div class="box-icon">
+                    <a href="#" class="btn btn-close btn-round btn-default">
+                        <i class="glyphicon glyphicon-remove"></i>
+                    </a>
+                </div>*@
+                    </div>
+                    <div class="box-content">
+                        <div class="btn-cart-md">
+                            @{
+                                double total = 0;
+                                C2_Dominio.Entidades.PedidoDetCollection pedido = new C2_Dominio.Entidades.PedidoDetCollection();
+                                if (Session["Pedido"] != null)
+                                {
+                                    pedido = (C2_Dominio.Entidades.PedidoDetCollection)Session["Pedido"];
+                                    foreach (C2_Dominio.Entidades.DetallePedido x in pedido)
+                                    {
+                                        total += x.subTotal;
+                                    }
+                                }
+
+                                <a class="cart-link" href="#">
+                                    <!-- Image -->
+                                    <img class="img-responsive" src="~/ElementosWeb/General/img/cart.png" alt="" />
+                                    <!-- Heading -->
+                                    <h4>Mi Pedido</h4>
+                                    <span>@pedido.Count item(s) </span>
+                                    <div class="clearfix"></div>
+                                </a>
+                                <ul class="cart-dropdown" role="menu">
+                                    @if (Session["Pedido"] == null)
+                                    {
+                                        <li>
+                                            <!-- Cart items for shopping list -->
+                                            <div class="cart-item">
+                                                <span class="cart-title">Ningún ítem en pedido</span>
+                                            </div>
+                                        </li>
+                                    }
+                                    else
+                                    {
+
+                                        foreach (C2_Dominio.Entidades.DetallePedido x in pedido)
+                                        {
+                                            <li>
+                                                <!-- Cart items for shopping list -->
+                                                <div class="cart-item">
+                                                    <!-- Item remove icon -->
+                                                    <a href="#"><i class="fa fa-times"></i></a>
+                                                    <!-- Image -->
+                                                    @*<img class="img-responsive img-rounded" src="../Producto/@x.Producto.Imagen" alt="" />*@
+                                                    <!-- Title for purchase item -->
+                                                    <span class="cart-title"><a href="#">@x.producto.descripcion</a></span>
+                                                    <!-- Cart item price -->
+                                                    <span class="cart-price pull-left lblue">@x.cantidad.ToString() und.</span>
+                                                    <span class="cart-price pull-right lblue">@x.producto.precio.ToString("###,###.00")</span>
+                                                    <div class="clearfix"></div>
+                                                </div>
+                                            </li>
+                                        }
+                                        <li>
+                                            <!-- Cart items for shopping list -->
+                                            <div class="cart-item">
+                                                <a class="btn btn-info" href="@Url.Action("PaginaDetallePedido", "GestionarPedido")">Ver Pedido</a>
+                                            </div>
+                                        </li>
+                                    }
+                                </ul>
+                                <div class="clearfix"></div>
+                            }
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>

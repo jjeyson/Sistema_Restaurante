@@ -1,0 +1,85 @@
+﻿@{
+    Layout = "~/Views/PaginaMaestra_Core.cshtml";
+}
+
+
+    <noscript>
+        <div class="alert alert-block col-md-9">
+            <h4 class="alert-heading">Warning!</h4>
+
+            <p>
+                You need to have <a href="http://en.wikipedia.org/wiki/JavaScript" target="_blank">JavaScript</a>
+                enabled to use this site.
+            </p>
+        </div>
+    </noscript>
+
+        <div class="inner-page padd">
+
+            <!-- Single Item Start -->
+
+            <div class="single-item">
+                <div class="container">
+                    <!-- Shopping single item contents -->
+                    <div class="single-item-content">
+                        <div class="row">
+                            <div class="col-md-12 col-sm-7">
+                                <!-- Heading -->
+                                <h3>Pedido</h3>
+                                <div class="row">
+                                    <div class="col-md-12 col-sm-12">
+                                        <!-- Single item details -->
+                                        <div class="table-responsive">
+                                            <!-- Heading -->
+                                            <h5>Detalle</h5>
+                                            <table class="table table-bordered table-hover table-striped">
+                                                <thead>
+                                                    <tr>
+                                                        <th>Ítem</th>
+                                                        <th>Producto</th>
+                                                        <th id="ManOpt">Cant.</th>
+                                                        <th id="ManOpt">Precio</th>
+
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    @{
+                                                        C2_Dominio.Entidades.PedidoDetCollection pedido = (C2_Dominio.Entidades.PedidoDetCollection)Session["Pedido"];
+                                                        int i = 1;
+                                                        decimal total = 0;
+                                                        foreach (C2_Dominio.Entidades.DetallePedido x in pedido)
+                                                        {
+                                                            <tr>
+                                                                <td id="ManOpt">@i</td>
+                                                                <td style="">@x.producto.descripcion</td>
+                                                                <td id="ManOpt">@x.cantidad</td>
+                                                                <td id="ManOpt">@x.producto.precio.ToString("###,###.00")</td>
+
+                                                            </tr>
+                                                            //total += x.subTotal;
+                                                            i++;
+                                                        }
+                                                    }
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-sm-12">
+
+                                    </div>
+                                </div><!--/ Inner row end  -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Single Item End -->
+        </div><!-- / Inner Page Content End -->
+        <div style="text-align:center">
+            <form action="GuardarPedido" method="get">
+                <input type="submit" class="btn btn-primary" value="Guardar Pedido" name="btnuevo" />
+            </form>
+            <br />
+            <input type="button" class="btn btn-primary" value="Pedir más" name="btback" onclick="location.href='@Url.Action("PaginaPedido", "GestionarPedido")'" />
+        </div>

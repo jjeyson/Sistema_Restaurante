@@ -1,0 +1,106 @@
+﻿@model C2_Dominio.Entidades.Cliente
+@{
+    Layout = "~/Views/PaginaMaestra_MantenedorConsulta.cshtml";
+}
+    <div style="text-align:center">
+        <h3>Editar Cliente</h3>
+    </div>
+    <div class="ch-container">
+        @using (Html.BeginForm())
+        {
+            @Html.AntiForgeryToken()
+            @Html.ValidationSummary(true)
+
+            <fieldset>
+                <div class="editor-label">
+                    @Html.LabelFor(model => model.dni)
+                </div>
+                <div class="editor-field">
+                    @Html.EditorFor(model => model.dni)
+                    @Html.ValidationMessageFor(model => model.dni)
+                </div>
+
+                <div class="editor-label">
+                    @Html.LabelFor(model => model.razonSocial)
+                </div>
+                <div class="editor-field">
+                    @Html.EditorFor(model => model.razonSocial)
+                    @Html.ValidationMessageFor(model => model.razonSocial)
+                </div>
+
+                <div class="editor-label">
+                    @Html.LabelFor(model => model.nombre)
+                </div>
+                <div class="editor-field">
+                    @Html.EditorFor(model => model.nombre)
+                    @Html.ValidationMessageFor(model => model.nombre)
+                </div>
+
+                <div class="editor-label">
+                    @Html.LabelFor(model => model.ruc)
+                </div>
+                <div class="editor-field">
+                    @Html.EditorFor(model => model.ruc)
+                    @Html.ValidationMessageFor(model => model.ruc)
+                </div>
+
+                <div class="editor-label">
+                    @Html.LabelFor(model => model.correoElectronico)
+                </div>
+                <div class="editor-field">
+                    @Html.EditorFor(model => model.correoElectronico)
+                    @Html.ValidationMessageFor(model => model.correoElectronico)
+                </div>
+
+                <div class="editor-label">
+                    @Html.LabelFor(model => model.esEmpresa)
+                </div>
+                <div class="editor-field">
+                    @Html.EditorFor(model => model.esEmpresa)
+                    @Html.ValidationMessageFor(model => model.esEmpresa)
+                </div>
+
+                <div class="editor-label">
+                    @Html.LabelFor(model => model.direccion)
+                </div>
+                <div class="editor-field">
+                    @Html.EditorFor(model => model.direccion)
+                    @Html.ValidationMessageFor(model => model.direccion)
+                </div>
+
+                <div class="editor-label">
+                    @Html.LabelFor(model => model.fechaNacimiento)
+                </div>
+                <div class="editor-field">
+                    @{String fechanacimi = Model.fechaNacimiento.Day.ToString() + "/" + Model.fechaNacimiento.Month.ToString() + "/" + Model.fechaNacimiento.Year.ToString();}
+
+                    @Html.EditorFor(model => fechanacimi)
+                    @Html.ValidationMessageFor(model => model.fechaNacimiento)
+                </div>
+
+                <div class="editor-label">
+                    @Html.LabelFor(model => model.fechaRegistro)
+                </div>
+                <div class="editor-field">
+                    @Html.EditorFor(model => model.fechaRegistro)
+                    @Html.ValidationMessageFor(model => model.fechaRegistro)
+                </div>
+
+                <div class="editor-label">
+                    @Html.LabelFor(model => model.habilitado)
+                </div>
+                <div class="editor-field">
+                    @Html.EditorFor(model => model.habilitado)
+                    @Html.ValidationMessageFor(model => model.habilitado)
+                </div>
+
+                <p>
+                    <input type="submit" class="btn btn-primary" value="Guardar" />
+                </p>
+            </fieldset>
+        }
+
+        <div>
+            @Html.ActionLink("Cancelar", "paginaListarCliente")
+        </div>
+    </div>
